@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+body{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(71, 71, 71);
+}
+
+body  > h1{
+    display: flex;
+    justify-content: center;
+    color: aquamarine;
+}
+
+#form{
+    display: flex;
+    justify-content: center;
+    width: 270px;
+    height: 40px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 9px;
+    margin: 0 auto;
+    padding: 15px 25px;
+    border: 1px solid black;
+}
+
+#btn-form{
+    width: 40px;
+    height: 40px;
+    background-color: aquamarine;
+    border-radius: 6px;
+}
+
+#task-text{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: aquamarine;
+    border-radius: 2px;
+    padding: 10px;
+    height: 40px;
+    margin: 0;
+}
+
+#tasksList{
+    margin: 0;
+    padding: 0
+}
+
+.task{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: white;
+    width: 260px;
+    justify-content: space-between;
+    border-radius: 2px;
+    padding: 0px 10px;
+}
+
+#task-btn{
+    display: flex;
+    width: 30px;
+    height: 30px;
+    align-items: center;
+    justify-content: center;
+    background-color: aquamarine;
+    border-radius: 10px;
+}

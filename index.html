@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Todo List</h1>
+    <form id="form" onsubmit="return false;">
+      <input type="text" placeholder="Enter the task..." id="input-form">
+      <input type="button" id="btn-form" value="+">
+    </form>
+    <ul id="tasksList">
+      <li class="task">
+        <h3 id="task-text" style="text-decoration: none;" onclick="completedTask(this)">Сходить за хлебом</h3>
+        <button id="task-btn" onclick="deleteTask(this.parentElement)">X</button>
+      </li>
+    </ul>
+    <script src="main.js"></script>
+</body>
+</html>
